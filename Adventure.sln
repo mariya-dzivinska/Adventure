@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adventure", "Adventure\Adve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeaningPass.Data", "LeaningPass.Data\LeaningPass.Data.csproj", "{0A31A763-6E33-4005-A7D9-DFDDFA2EC547}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{782623B6-ED8C-4B33-8DDC-365F414270F8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,14 +31,6 @@ Global
 		{0A31A763-6E33-4005-A7D9-DFDDFA2EC547}.qa|Any CPU.Build.0 = Release|Any CPU
 		{0A31A763-6E33-4005-A7D9-DFDDFA2EC547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A31A763-6E33-4005-A7D9-DFDDFA2EC547}.Release|Any CPU.Build.0 = Release|Any CPU
-		{782623B6-ED8C-4B33-8DDC-365F414270F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{782623B6-ED8C-4B33-8DDC-365F414270F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{782623B6-ED8C-4B33-8DDC-365F414270F8}.development|Any CPU.ActiveCfg = Debug|Any CPU
-		{782623B6-ED8C-4B33-8DDC-365F414270F8}.development|Any CPU.Build.0 = Debug|Any CPU
-		{782623B6-ED8C-4B33-8DDC-365F414270F8}.qa|Any CPU.ActiveCfg = Release|Any CPU
-		{782623B6-ED8C-4B33-8DDC-365F414270F8}.qa|Any CPU.Build.0 = Release|Any CPU
-		{782623B6-ED8C-4B33-8DDC-365F414270F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{782623B6-ED8C-4B33-8DDC-365F414270F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

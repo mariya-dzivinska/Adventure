@@ -16,6 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Adventure.Business\Adventure.Business.csproj" />
+    <ProjectReference Include="..\BusinessServices\BusinessServices.csproj" />
     <ProjectReference Include="..\LeaningPass.Data\LeaningPass.Data.csproj" />
   </ItemGroup>
 
@@ -30,7 +32,7 @@
     <None Update="appsettings.Qa.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="appsettings.Development.json">
+    <None Update="appsettings.Dev.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="appsettings.json">

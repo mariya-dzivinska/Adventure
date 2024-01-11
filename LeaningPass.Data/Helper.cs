@@ -54,16 +54,18 @@ namespace Adventure
                         "GetTeacherCourses",
 
                         commandType: CommandType.StoredProcedure,
-                        map: (teacher, course) =>
-                        {
-                            teacher.Course = course;
-                            return teacher;
-                        },
+                        map: CreateTeacherCoursesDto,
                         splitOn: "CourseId")
                     .ToList();
 
                 return teacherCoursesDtoList;
             }
+        }
+
+        public TeacherCoursesDto CreateTeacherCoursesDto(TeacherCoursesDto dto, Course c)
+        {
+            dto.Course = c;
+            return dto;
         }
 
         public void CreateTeachers()
